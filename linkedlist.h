@@ -5,14 +5,14 @@ struct Node {
 }; // end structure listNode                        
 // prototypes
 typedef LLnode *LLPtr; // synonym for ListNode*
-
+typedef struct Node LLnode; // synonym for struct listNode
 int deletes( LLPtr *sPtr, int value );
 int isEmpty( LLPtr sPtr );
 void insert( LLPtr *sPtr, int value );
 void printList( LLPtr currentPtr );
 void instructions( void );
 
-typedef struct Node LLnode; // synonym for struct listNode
+
 
 
 // display program instructions to user
